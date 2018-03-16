@@ -44,8 +44,8 @@ Stop the container
 docker stop nominatim_container
 ```
 
-Connect to the nominatim webserver with curl. If this succeeds, open [http://localhost:8080/](http:/localhost:8080) in a web browser
+Connect to the nominatim webserver with curl. If this succeeds, open [http://localhost:8080/search.php](http:/localhost:8080) in a web browser
 
 ```
-curl "http://localhost:8080"
+curl "http://localhost:8080/search.php"
 ```
